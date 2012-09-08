@@ -1,0 +1,40 @@
+@import "compass/reset";
+@import "compass/css3/box-sizing";
+@import "compass/css3/images";
+@import "colors";
+@import "fonts";
+
+* {
+	@include box-sizing(border-box);
+}
+
+body {
+	@include normal-font;
+	@include background(image-url("tile.jpg"));
+	background-repeat: repeat;
+	position: relative;
+	> img {
+		position: absolute;
+		top: 0;
+		&#patternleft{
+			left: 0;
+		}
+		&#patternright{
+			right: 0;
+		}
+	}
+}
+
+#content {
+	position: relative;
+	top: 0;
+	z-index: 900;
+	width: 900px;
+	margin: 0 auto;
+
+	> header {
+		img {
+			padding: 35px;
+		}
+	}
+}

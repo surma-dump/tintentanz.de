@@ -1,0 +1,29 @@
+@import "colors" ;
+
+@mixin lucida {
+	font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode','Verdana', sans-serif;
+}
+
+@mixin headline-font {
+	@include normal-font;
+	font-size: 16px;
+}
+
+@mixin normal-font {
+	@include lucida;
+	color: $black;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 1.5em;
+	a, a:link a:active, a:visited, a:hover {
+		color: inherit;
+		font-size: inherit;
+		text-decoration: inherit;
+		font-weight: inherit;
+	}
+	a:hover, a.activer {
+		color: $gray;
+	}
+}
+
