@@ -7,7 +7,13 @@ layout: boilerplate
 	{% include header.html %}
 	<div id="main">
 		<div id="album">
-			Imagine album here
+			{% for post in site.posts %}
+				{% if post.category == "album" %}
+					{% for image in post.images %}
+						<img src="imgs/album/{{image}}" />
+					{% endfor %}
+				{% endif %}
+			{% endfor %}
 		</div>
 		<div id="aboutbook">
 			{% for post in site.posts %}
