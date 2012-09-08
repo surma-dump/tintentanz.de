@@ -11,7 +11,7 @@ layout: boilerplate
 		</div>
 		<div id="aboutbook">
 			{% for post in site.posts %}
-				{% if post.category contains "aboutbook" %}
+				{% if post.category == "aboutbook" %}
 					<h1>{{post.title}}</h1>
 					{{post.content}}
 				{% endif %}
@@ -21,7 +21,7 @@ layout: boilerplate
 			<h1>Pressestimmen</h1>
 			<ul>
 				{% for post in site.posts %}
-					{% if post.category contains "press" %}
+					{% if post.category == "press" %}
 						<li>
 							»{{post.content}}«<br>
 							<em>{{post.author}}<!--
@@ -37,7 +37,7 @@ layout: boilerplate
 		</div>
 		<div id="aboutauthors">
 			{% for post in site.posts %}
-				{% if post.category contains "aboutauthors" %}
+				{% if post.category == "aboutauthors" %}
 					<h1>{{post.title}}</h1>
 					{{post.content}}
 				{% endif %}
@@ -50,13 +50,18 @@ layout: boilerplate
 	<div id="news" class="widget">
 		<h1>Aktuelles</h1>
 		{% for post in site.posts %}
-			{% if post.category contains "news" %}
+			{% if post.category == "news" %}
 				<h2>{{post.date | date: "%d.%m.%Y"}}</h2>
 				{{post.content}}
 			{% endif %}
 		{% endfor %}
 	</div>
 	<div id="impress" class="widget">
-		blabla
+		{% for post in site.posts %}
+			{% if post.category == "impress" %}
+				<h1>{{post.title}}</h1>
+				{{post.content}}
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>

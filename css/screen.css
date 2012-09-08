@@ -239,3 +239,32 @@ p {
   margin-right: 17px;
   margin-bottom: 17px;
 }
+/* line 100, ../sass/screen.scss */
+#content #impress code {
+  white-space: pre-line;
+}
+/* line 103, ../sass/screen.scss */
+#content #impress h2, #content #impress h3 {
+  color: #959788;
+}
+/* line 106, ../sass/screen.scss */
+#content #impress a, #content #impress a:link, #content #impress a:active, #content #impress a:hover, #content #impress a:visited {
+  color: black;
+}
+/* line 109, ../sass/screen.scss */
+#content #impress h3 {
+  cursor: pointer;
+  margin-bottom: 17px;
+}
+/* line 112, ../sass/screen.scss */
+#content #impress h3 + p {
+  display: none;
+}
+/* line 115, ../sass/screen.scss */
+#content #impress h3.active {
+  margin-bottom: 0;
+}
+/* line 117, ../sass/screen.scss */
+#content #impress h3.active + p {
+  display: block;
+}

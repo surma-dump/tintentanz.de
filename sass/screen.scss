@@ -96,4 +96,29 @@ p {
 		margin-bottom: $spacing;
 	}
 
+	#impress {
+		code {
+			white-space: pre-line;
+		}
+		h2, h3 {
+			color: $gray;
+		}
+		a, a:link, a:active, a:hover, a:visited {
+			color: $black;
+		}
+		h3 {
+			cursor: pointer;
+			margin-bottom: $spacing;
+			+ p {
+				display:none;
+			}
+			&.active {
+				margin-bottom: 0;
+				 + p {
+					display: block;
+				}
+			}
+		}
+	}
+
 }

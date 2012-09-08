@@ -4,4 +4,4 @@ require.config({
 	},
 });
 
-// require(['/js/script.js'], function() {});
+require(['/js/rollout.js'], function() {});
