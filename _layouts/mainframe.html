@@ -47,8 +47,14 @@ layout: boilerplate
 	<div id="book" class="widget">
 		blabla
 	</div>
-	<div id="dates" class="widget">
-		blabla
+	<div id="news" class="widget">
+		<h1>Aktuelles</h1>
+		{% for post in site.posts %}
+			{% if post.category contains "news" %}
+				<h2>{{post.date | date: "%d.%m.%Y"}}</h2>
+				{{post.content}}
+			{% endif %}
+		{% endfor %}
 	</div>
 	<div id="impress" class="widget">
 		blabla
