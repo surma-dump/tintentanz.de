@@ -200,28 +200,36 @@ p:last-child {
   padding: 38px;
 }
 /* line 74, ../sass/screen.scss */
+#content #leaf {
+  background-color: transparent !important;
+  padding: 0;
+  margin: 0;
+  margin-left: 35px;
+}
+/* line 81, ../sass/screen.scss */
 #content > #main {
   width: 570px;
   float: right;
 }
-/* line 75, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 #content > #main #album {
   margin-bottom: 17px;
 }
-/* line 77, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 #content > #main #album img {
+  margin: 0 auto;
   cursor: pointer;
   display: none;
 }
-/* line 80, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 #content > #main #album img.active {
   display: block;
 }
-/* line 87, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 #content > #main div {
   margin-bottom: 17px;
 }
-/* line 91, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #content > #main #aboutauthors h2 {
   font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode','Verdana', sans-serif;
   color: black;
@@ -242,55 +250,55 @@ p:last-child {
 #content > #main #aboutauthors h2 a:hover, #content > #main #aboutauthors h2 a.activer {
   color: #959788;
 }
-/* line 97, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #content > #main #press li {
   margin-bottom: 8.5px;
 }
-/* line 100, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 #content > #main #press em {
   font-style: italic;
 }
-/* line 106, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 #content > .widget {
   width: 310px;
   margin-right: 17px;
   margin-bottom: 17px;
 }
-/* line 113, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #content #book img {
   margin-bottom: 17px;
 }
-/* line 116, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #content #book a, #content #book a:link, #content #book a:active, #content #book a:hover, #content #book a:visited {
   color: black;
   font-weight: bold;
 }
-/* line 123, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 #content #impress code {
   white-space: pre-line;
 }
-/* line 126, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #content #impress h2, #content #impress h3 {
   color: #959788;
 }
-/* line 129, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #content #impress a, #content #impress a:link, #content #impress a:active, #content #impress a:hover, #content #impress a:visited {
   color: black;
 }
-/* line 132, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #content #impress h3 {
   cursor: pointer;
   margin-bottom: 17px;
 }
-/* line 135, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #content #impress h3 + p {
   display: none;
 }
-/* line 138, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #content #impress h3.active {
   margin-bottom: 0;
 }
-/* line 140, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #content #impress h3.active + p {
   display: block;
 }
