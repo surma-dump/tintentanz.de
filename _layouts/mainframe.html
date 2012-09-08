@@ -5,7 +5,52 @@ layout: boilerplate
 <img src="imgs/pattern_right.png" id="patternright" />
 <div id="content">
 	{% include header.html %}
-	<div>
-		{{content}}
+	<div id="main">
+		<div id="album">
+			Imagine album here
+		</div>
+		<div id="aboutbook">
+			{% for post in site.posts %}
+				{% if post.category contains "aboutbook" %}
+					<h1>{{post.title}}</h1>
+					{{post.content}}
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div id="press">
+			<h1>Pressestimmen</h1>
+			<ul>
+				{% for post in site.posts %}
+					{% if post.category contains "press" %}
+						<li>
+							»{{post.content}}«<br>
+							<em>{{post.author}}<!--
+							{% if post.link %}
+								-->;</em> <a href="{{post.link}}" target="_blank">die gesamte Rezension hier lesen.</a>
+							{% else %}
+								--></em>
+							{% endif %}
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+		<div id="aboutauthors">
+			{% for post in site.posts %}
+				{% if post.category contains "aboutauthors" %}
+					<h1>{{post.title}}</h1>
+					{{post.content}}
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	<div id="book" class="widget">
+		blabla
+	</div>
+	<div id="dates" class="widget">
+		blabla
+	</div>
+	<div id="impress" class="widget">
+		blabla
 	</div>
 </div>

@@ -7,6 +7,10 @@
 @mixin headline-font {
 	@include normal-font;
 	font-size: 16px;
+	text-transform: uppercase;
+	color: $gray;
+	font-weight: normal;
+	letter-spacing: 2px;
 }
 
 @mixin normal-font {
@@ -15,7 +19,7 @@
 	font-size: 12px;
 	text-decoration: none;
 	font-weight: normal;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	a, a:link a:active, a:visited, a:hover {
 		color: inherit;
 		font-size: inherit;
@@ -25,5 +29,13 @@
 	a:hover, a.activer {
 		color: $gray;
 	}
+}
+
+em, i {
+	font-style: italic;
+}
+
+strong, b {
+	font-weight: bold;
 }
 

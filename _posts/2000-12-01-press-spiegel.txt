@@ -1,0 +1,6 @@
+---
+category: press
+author: Der Spiegel
+link: http://google.de
+---
+Hier steht dann ein Zitat aus einer Rezension über den Tintentanz. Dazu die Angabe woher es stammt und den Link zum Artikel, wenn möglich.

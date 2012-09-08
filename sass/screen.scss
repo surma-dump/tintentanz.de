@@ -8,6 +8,8 @@
 	@include box-sizing(border-box);
 }
 
+$spacing: 17px;
+
 body {
 	@include normal-font;
 	@include background(image-url("tile.jpg"));
@@ -18,11 +20,34 @@ body {
 		top: 0;
 		&#patternleft{
 			left: 0;
+			@media (max-width: 1424px) {
+				left: -100px;
+			}
+			@media (max-width: 1324px) {
+				left: -150px;
+			}
+			@media (max-width: 1224px) {
+				left: -200px;
+			}
+			@media (max-width: 1124px) {
+				display: none;
+			}
 		}
 		&#patternright{
 			right: 0;
 		}
 	}
+}
+
+h1 {
+	@include headline-font;
+	margin-bottom: $spacing;
+}
+a, a:link, a:active, a:hover, a:visited {
+	color: $gray;
+}
+p {
+	margin-bottom: $spacing;
 }
 
 #content {
@@ -37,4 +62,38 @@ body {
 			padding: 35px;
 		}
 	}
+
+	> div {
+		background-color: $white;
+		padding: 38px;
+	}
+
+	> #main {
+		width: 570px;
+		float: right;
+		div {
+			margin-bottom: $spacing;
+		}
+		#aboutauthors {
+			h2 {
+				@include normal-font;
+				text-transform: none;
+			}
+		}
+		#press {
+			li {
+				margin-bottom: $spacing/2;
+			}
+			em {
+				font-style: italic;
+			}
+		}
+	}
+
+	> .widget {
+		width: 310px;
+		margin-right: $spacing;
+		margin-bottom: $spacing;
+	}
+
 }

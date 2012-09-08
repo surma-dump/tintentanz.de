@@ -1,0 +1,9 @@
+/* line 34, ../sass/fonts.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 38, ../sass/fonts.scss */
+strong, b {
+  font-weight: bold;
+}
