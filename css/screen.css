@@ -177,8 +177,12 @@ a, a:link, a:active, a:hover, a:visited {
 p {
   margin-bottom: 17px;
 }
+/* line 51, ../sass/screen.scss */
+p:last-child {
+  margin-bottom: 0;
+}
 
-/* line 53, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 #content {
   position: relative;
   top: 0;
@@ -186,25 +190,25 @@ p {
   width: 900px;
   margin: 0 auto;
 }
-/* line 61, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 #content > header img {
   padding: 35px;
 }
-/* line 66, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #content > div {
   background-color: #f9f9f9;
   padding: 38px;
 }
-/* line 71, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 #content > #main {
   width: 570px;
   float: right;
 }
-/* line 74, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 #content > #main div {
   margin-bottom: 17px;
 }
-/* line 78, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 #content > #main #aboutauthors h2 {
   font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode','Verdana', sans-serif;
   color: black;
@@ -225,46 +229,55 @@ p {
 #content > #main #aboutauthors h2 a:hover, #content > #main #aboutauthors h2 a.activer {
   color: #959788;
 }
-/* line 84, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 #content > #main #press li {
   margin-bottom: 8.5px;
 }
-/* line 87, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #content > #main #press em {
   font-style: italic;
 }
-/* line 93, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 #content > .widget {
   width: 310px;
   margin-right: 17px;
   margin-bottom: 17px;
 }
-/* line 100, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
+#content #book img {
+  margin-bottom: 17px;
+}
+/* line 106, ../sass/screen.scss */
+#content #book a, #content #book a:link, #content #book a:active, #content #book a:hover, #content #book a:visited {
+  color: black;
+  font-weight: bold;
+}
+/* line 113, ../sass/screen.scss */
 #content #impress code {
   white-space: pre-line;
 }
-/* line 103, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #content #impress h2, #content #impress h3 {
   color: #959788;
 }
-/* line 106, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 #content #impress a, #content #impress a:link, #content #impress a:active, #content #impress a:hover, #content #impress a:visited {
   color: black;
 }
-/* line 109, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #content #impress h3 {
   cursor: pointer;
   margin-bottom: 17px;
 }
-/* line 112, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 #content #impress h3 + p {
   display: none;
 }
-/* line 115, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #content #impress h3.active {
   margin-bottom: 0;
 }
-/* line 117, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #content #impress h3.active + p {
   display: block;
 }

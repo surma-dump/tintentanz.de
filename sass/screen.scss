@@ -48,6 +48,9 @@ a, a:link, a:active, a:hover, a:visited {
 }
 p {
 	margin-bottom: $spacing;
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 #content {
@@ -94,6 +97,16 @@ p {
 		width: 310px;
 		margin-right: $spacing;
 		margin-bottom: $spacing;
+	}
+
+	#book {
+		img {
+			margin-bottom: $spacing;
+		}
+		a, a:link, a:active, a:hover, a:visited {
+			color: black;
+			font-weight: bold;
+		}
 	}
 
 	#impress {

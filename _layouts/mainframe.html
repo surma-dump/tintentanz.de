@@ -45,7 +45,12 @@ layout: boilerplate
 		</div>
 	</div>
 	<div id="book" class="widget">
-		blabla
+		{% for post in site.posts %}
+			{% if post.category == "book" %}
+				<img src="imgs/{{post.image}}" />
+				{{post.content}}
+			{% endif %}
+		{% endfor %}
 	</div>
 	<div id="news" class="widget">
 		<h1>Aktuelles</h1>
