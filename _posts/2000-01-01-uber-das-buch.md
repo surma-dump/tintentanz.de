@@ -2,6 +2,5 @@
 title: Über das Buch
 category: aboutbook
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra [nec](http://google.de) consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero **egestas** mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Wenn Sie Kalligrafie im Sinne von Schönschrift lernen wollen und klassische ›Ballett-Etüden‹ für die Feder suchen, dann legen sie dieses Buch am besten schnell aus der Hand. Denn Tintentanz ist kalligrafischer Ausdruckstanz, ist Jazz für die Hand, die schreibt. Dieses Buch weckt die Lust, das Charakteristische beim eigenen Schreiben herauszuarbeiten und zu kultivieren. Handschrift wird zum persönlichen Ausdrucksträger: individuell – unverwechselbar – leidenschaftlich.
 
-Aenean ut gravida lorem. Ut *turpis* felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
