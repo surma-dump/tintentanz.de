@@ -53,7 +53,7 @@ layout: boilerplate
 	<div id="book" class="widget">
 		{% for post in site.posts %}
 			{% if post.category == "book" %}
-				<img src="imgs/{{post.image}}" />
+				<a href="{{post.link}}" target="_blank"><img src="imgs/{{post.image}}" /></a>
 				{{post.content}}
 			{% endif %}
 		{% endfor %}

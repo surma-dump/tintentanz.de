@@ -60,7 +60,7 @@ p {
 	position: relative;
 	top: 0;
 	z-index: 900;
-	width: 940px;
+	width: 895px;
 	margin: 0 auto;
 
 	> header {
@@ -72,6 +72,10 @@ p {
 	> div {
 		background-color: $white;
 		padding: 38px;
+	}
+
+	> #main {
+		padding-top: 25px;
 	}
 
 	#leaf {
@@ -93,7 +97,7 @@ p {
 				}
 			}
 		}
-		width: 610px;
+		width: 565px;
 		float: right;
 		div {
 			margin-bottom: $spacing;
