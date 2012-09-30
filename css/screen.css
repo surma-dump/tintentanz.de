@@ -187,7 +187,7 @@ p:last-child {
   position: relative;
   top: 0;
   z-index: 900;
-  width: 900px;
+  width: 940px;
   margin: 0 auto;
 }
 /* line 64, ../sass/screen.scss */
@@ -208,7 +208,7 @@ p:last-child {
 }
 /* line 81, ../sass/screen.scss */
 #content > #main {
-  width: 570px;
+  width: 610px;
   float: right;
 }
 /* line 82, ../sass/screen.scss */
