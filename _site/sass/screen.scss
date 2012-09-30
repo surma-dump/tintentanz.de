@@ -10,6 +10,9 @@
 
 $spacing: 17px;
 
+#press { display: none; }
+#news {display: none; }
+
 body {
 	@include normal-font;
 	@include background(image-url("tile.jpg"));
