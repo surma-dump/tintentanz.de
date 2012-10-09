@@ -11,7 +11,6 @@
 $spacing: 17px;
 
 #press { display: none; }
-#news {display: none; }
 
 body {
 	@include normal-font;
@@ -122,6 +121,12 @@ p {
 		width: 310px;
 		margin-right: $spacing;
 		margin-bottom: $spacing;
+	}
+
+	#news {
+		a, a:link, a:active, a:hover, a:visited {
+			color: $gray !important;
+		}
 	}
 
 	#book {

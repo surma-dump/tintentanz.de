@@ -123,6 +123,12 @@ p {
 		margin-bottom: $spacing;
 	}
 
+	#news {
+		a, a:link, a:active, a:hover, a:visited {
+			color: $gray !important;
+		}
+	}
+
 	#book {
 		img {
 			margin-bottom: $spacing;
